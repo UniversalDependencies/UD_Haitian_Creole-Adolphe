@@ -1,20 +1,24 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+This is a treebank for Haitian creole. It contains 3338 sentences and 307,382 words selected from 1 bible-related source and was annotated programmatically.
 
+Kreyòl (Kreyòl Ayisyen, Haitian Creole, iso-639-1: ht) is the main language of Haïti.
 
 # Introduction
 
-...
+This treebank contains a selection of sentences from the following source:
+* "Ann egzamine Ekriti yo chak jou - 2017"
+
+Train: 2670 sentences
+Dev: 333 sentences
+Test: 335 sentences
+
+The sentences were randomly put into those 3 buckets.
 
 
 # Acknowledgments
 
-...
-
-## References
-
-* (citation)
+This conversion has been performed by Jephtey Adolphe, a Rutgers University alum.
 
 
 # Changelog
@@ -29,11 +33,11 @@ Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: grammar-examples
-Lemmas: manual native
-UPOS: manual native
+Lemmas: converted with corrections
+UPOS: converted with corrections
 XPOS: not available
-Features: manual native
-Relations: manual native
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Adolphe, Jephtey
 Contributing: here
 Contact: ja983@scarletmail.rutgers.edu
