@@ -10,8 +10,8 @@ This treebank contains a selection of sentences from the following source:
 * "Ann egzamine Ekriti yo chak jou - 2017"
 
 Train: 2651 sentences
-Dev: 328 sentences
-Test: 334 sentences
+Dev: 331 sentences
+Test: 332 sentences
 
 The sentences were randomly put into those 3 buckets.
 
