@@ -5001,26 +5001,6 @@
 21	dife	dife	NOUN	_	_	18	acl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 2377
-# text = Èske sa konn rive w pafwa ou santi w poukont ou fas ak yon sitiyasyon difisil?
-1	Èske	èske	PART	_	_	4	discourse	_	_
-2	sa	sa	PRON	_	_	4	nsubj	_	_
-3	konn	konn	VERB	_	_	4	advcl	_	_
-4	rive	rive	VERB	_	_	0	root	_	_
-5	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	4	obj	_	_
-6	pafwa	pafwa	ADV	_	_	4	advmod	_	_
-7	ou	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
-8	santi	santi	VERB	_	_	4	conj	_	_
-9	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	8	obj	_	_
-10	poukont	poukont	ADV	_	_	8	advmod	_	_
-11	ou	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	10	fixed	_	_
-12	fas	fas	ADP	_	_	8	obl	_	_
-13	ak	ak	ADP	_	_	16	case	_	_
-14	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
-15	sitiyasyon	sitiyasyon	NOUN	_	_	16	compound	_	_
-16	difisil	difisil	ADJ	_	_	12	obj	_	SpaceAfter=No
-17	?	?	PUNCT	_	_	4	punct	_	_
-
 # sent_id = 1113
 # text = Repons ki senp lan sèke Jewova mande pou nou youn renmen lòt.
 1	Repons	repons	NOUN	_	_	7	nsubj	_	_
