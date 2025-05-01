@@ -9,11 +9,11 @@ Kreyòl (Kreyòl Ayisyen, Haitian Creole, iso-639-1: ht) is the main language of
 This treebank contains a selection of sentences from the following source:
 * "Ann egzamine Ekriti yo chak jou - 2017"
 
-Train: 2584 sentences
-Dev: 364 sentences
-Test: 366 sentences
+Train: 57,386 tokens
+Dev: 7,173 tokens
+Test: 7,175 tokens
 
-The sentences were randomly put into those 3 buckets.
+The sentences/tokens were randomly put into those 3 buckets.
 
 
 # Acknowledgments
