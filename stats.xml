@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>3314</sentences><tokens>71734</tokens><words>71734</words><fused>0</fused></total>
+    <train><sentences>2605</sentences><tokens>55527</tokens><words>55527</words><fused>0</fused></train>
+    <dev><sentences>265</sentences><tokens>6186</tokens><words>6186</words><fused>0</fused></dev>
+    <test><sentences>444</sentences><tokens>10021</tokens><words>10021</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="2742" /><!-- ., nou, ,, li, yo, la, te, ki, pou, nan, sa, yon, ap, ak, fè -->
+  <forms unique="2760" /><!-- ., ,, yo, pou, ki, te, nan, l, nou, sa, n, a, yon, ap, ak -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="17">
+    <tag name="ADJ">3041</tag><!-- bon, lòt, gwo, espirityèl, ti, enpòtan, bèl, fidèl, kontan, menm -->
+    <tag name="ADP">5080</tag><!-- nan, pou, ak, sou, de, an, kòm, san, avè, avèk -->
+    <tag name="ADV">3908</tag><!-- pa, menm, pi, byen, tou, plis, konsa, ansanm, toujou, anpil -->
+    <tag name="AUX">4966</tag><!-- te, ap, se, ka, dwe, pral, ta -->
+    <tag name="CCONJ">1599</tag><!-- e, ak, epi, men, oswa, ni, oubyen, kit, ou, sependan -->
+    <tag name="DET">5131</tag><!-- la, yon, sa, tout, yo, kèk, anpil, chak, plizyè, okenn -->
+    <tag name="INTJ">65</tag><!-- non, wi, o, ebyen, ala, tanpri, Elas, hmm, men, mèsi -->
+    <tag name="NOUN">11595</tag><!-- moun, fason, bagay, jan, lanmou, lavi, lafwa, tan, tè, travay -->
+    <tag name="NUM">205</tag><!-- de, 1914, 2, milyon, 2023, dis, youn, ., 24, 30 -->
+    <tag name="PART">165</tag><!-- èske, ann, pa, men, non, te, a, pou, wi -->
+    <tag name="PRON">12211</tag><!-- nou, li, yo, ki, sa, ou, mwen, youn, lòt, anyen -->
+    <tag name="PROPN">3147</tag><!-- Jewova, bondye, Jezi, satan, bib, David, Kris, Abraram, Pòl, Wayòm -->
+    <tag name="PUNCT">6793</tag><!-- ., ,, ', ?, !, :, ", [, ], ( -->
+    <tag name="SCONJ">2277</tag><!-- pou, lè, si, ki, paske, toutpandan, jan, byenke, piske, kit -->
+    <tag name="SYM">1</tag><!-- $ -->
+    <tag name="VERB">11544</tag><!-- fè, gen, bay, vini, di, montre, konnen, genyen, ede, vle -->
+    <tag name="X">6</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="22">
+    <feat name="Aspect" value="Prog" upos="AUX">1166</feat><!-- ap, pral -->
+    <feat name="Definite" value="Def" upos="DET">2550</feat><!-- a, la, an, nan, yo, lan, sa -->
+    <feat name="Definite" value="Ind" upos="DET">1171</feat><!-- yon, anpil, a, plizyè, kèk, youn, chak, de, sa, yo -->
+    <feat name="ExtPos" value="CCONJ" upos="SCONJ">1</feat><!-- kòm -->
+    <feat name="Mood" value="Cnd" upos="AUX">48</feat><!-- ta -->
+    <feat name="Mood" value="Pot" upos="AUX">21</feat><!-- ka -->
+    <feat name="Number" value="Plur" upos="DET,PRON">5405</feat><!-- yo, nou, n, y, kèk, plizyè, anpil, de, sa, n' -->
+    <feat name="Number" value="Sing" upos="DET,PRON">7614</feat><!-- l, a, yon, li, w, la, an, ou, m, sa -->
+    <feat name="NumType" value="Card" upos="NUM">16</feat><!-- de, 12, 14, 144000, 1914, 200,000, 2013, 28, 3, 3000 -->
+    <feat name="Person" value="1" upos="PRON">3059</feat><!-- nou, n, m, mwen, n', noumenm, pa, t -->
+    <feat name="Person" value="2" upos="PRON">911</feat><!-- w, ou, nou, n, pa -->
+    <feat name="Person" value="3" upos="DET,PRON">5064</feat><!-- yo, l, li, y, t, sa, l', menm, ni, a -->
+    <feat name="Polarity" value="Neg" upos="ADV,DET,PRON">915</feat><!-- pa, pap, okenn, t, anyen, ap, non, oken, pèsonn -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">13</feat><!-- pa, li, nou, yo, l, m -->
+    <feat name="PronType" value="Art" upos="DET">3785</feat><!-- a, yon, la, an, yo, nan, lan, anpil, youn, kèk -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">502</feat><!-- sa, sila, konsa, a -->
+    <feat name="PronType" value="Neg" upos="ADV,PRON">29</feat><!-- anyen, pèsonn -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">9026</feat><!-- yo, l, nou, n, li, w, ou, m, mwen, y -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON,SCONJ">1983</feat><!-- ki, k, kote, ke, kiyès, sa -->
+    <feat name="Tense" value="Fut" upos="AUX">88</feat><!-- pral, apral, pwal, ap -->
+    <feat name="Tense" value="Past" upos="AUX">2071</feat><!-- te, t -->
+    <feat name="Typo" value="Yes" upos="ADJ,NOUN,PROPN">6</feat><!-- d, o, jennon -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="38">
+    <dep name="acl">1588</dep>
+    <dep name="acl:relcl">2199</dep>
+    <dep name="advcl">2053</dep>
+    <dep name="advcl:cleft">1</dep>
+    <dep name="advmod">3703</dep>
+    <dep name="amod">1725</dep>
+    <dep name="appos">120</dep>
+    <dep name="aux">4197</dep>
+    <dep name="case">4354</dep>
+    <dep name="cc">1581</dep>
+    <dep name="ccomp">540</dep>
+    <dep name="compound">252</dep>
+    <dep name="compound:svc">603</dep>
+    <dep name="conj">2204</dep>
+    <dep name="cop">689</dep>
+    <dep name="dep">61</dep>
+    <dep name="det">6731</dep>
+    <dep name="discourse">197</dep>
+    <dep name="dislocated">123</dep>
+    <dep name="fixed">1</dep>
+    <dep name="flat">26</dep>
+    <dep name="flat:name">88</dep>
+    <dep name="goeswith">6</dep>
+    <dep name="iobj">101</dep>
+    <dep name="mark">2654</dep>
+    <dep name="nmod">4078</dep>
+    <dep name="nsubj">8511</dep>
+    <dep name="nummod">134</dep>
+    <dep name="obj">6056</dep>
+    <dep name="obl">4162</dep>
+    <dep name="obl:arg">18</dep>
+    <dep name="obl:mod">88</dep>
+    <dep name="parataxis">58</dep>
+    <dep name="parataxis:insert">4</dep>
+    <dep name="punct">6793</dep>
+    <dep name="root">3314</dep>
+    <dep name="vocative">15</dep>
+    <dep name="xcomp">2706</dep>
+  </deps>
+</treebank>
