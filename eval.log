@@ -1,0 +1,44 @@
+Running the following version of UD tools:
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 9 21:07:42 2025 +0200
+Evaluating the following revision of UD_Haitian_Creole-Adolphe:
+commit 118248778886011a2d1252bb51234df31ecbb1dd
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 9 22:09:01 2025 +0200
+Size: counted 71734 of 71734 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.54592966651326.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.9.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 19750 out of 71734 total words have one or more features.
+Features: source of annotation (from README) factor is 0.9.
+Universal relations: 31 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.9.
+Udapi:
+               TOTAL      14058
+Udapi: found 14058 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 71734 words.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Adolphe/ht_adolphe-ud-dev.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Adolphe/ht_adolphe-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Adolphe/ht_adolphe-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.27) = 0.0207692307692308
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
+(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
+(weight=0.256410256410256) * (score{size}=0.618575016150001) = 0.1586089785
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
+(TOTAL score=0.417553307444329) * (availability=1) * (validity=1) = 0.417553307444329
+STARS = 2
+UD_Haitian_Creole-Adolphe	0.417553307444329	2
