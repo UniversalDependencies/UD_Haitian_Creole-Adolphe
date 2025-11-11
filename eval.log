@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Haitian_Creole-Adolphe:
-commit 118248778886011a2d1252bb51234df31ecbb1dd
+commit ef1e00bd1b245a87812595b47c8dbd2e40ccf730
+Merge: 937244f e400b1b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 22:09:01 2025 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ht_adolphe'
+Language code (from CoNLL-U file name) = 'ht'
+Found the following data files: ht_adolphe-ud-dev.conllu, ht_adolphe-ud-test.conllu, ht_adolphe-ud-train.conllu
 Size: counted 71734 of 71734 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.54592966651326.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,26 +23,96 @@ Features: 19750 out of 71734 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi:
-               TOTAL      14058
-Udapi: found 14058 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 71734 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Adolphe/ht_adolphe-ud-dev.conllu
-*** PASSED ***
+[Line 38 Sent 1551]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 93 Sent 907]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 98 Sent 907]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 103 Sent 907]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 113 Sent 363]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 115 Sent 363]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 126 Sent 806]: [L3 Warning pron-det-without-prontype] The word 'youn' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 142 Sent 806]: [L3 Warning pron-det-without-prontype] The word 'youn' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 198 Sent 1050]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 256 Sent 2384]: [L3 Warning pron-det-without-prontype] The word 'anpil' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 519 Sent 1326]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('n', 'bagay') under the predicate 'di'.
+[Line 831 Sent 1926]: [L3 Syntax too-many-objects] Multiple direct objects [52, 54] ('l', 'imilite') under the predicate 'gen'.
+[Line 1214 Sent 2477]: [L3 Syntax too-many-objects] Multiple direct objects [11, 13] ('n', 'objektif') under the predicate 'gen'.
+[Line 1286 Sent 1887]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('tèt', 'pwoblèm') under the predicate 'bay'.
+[Line 1850 Sent 2588]: [L3 Syntax too-many-objects] Multiple direct objects [6, 7] ('Jewova', 'èd') under the predicate 'mande'.
+[Line 1945 Sent 975]: [L3 Syntax too-many-objects] Multiple direct objects [2, 9] ('sa', 'David') under the predicate 'wè'.
+[Line 2085 Sent 2173]: [L3 Syntax too-many-objects] Multiple direct objects [23, 25] ('n', 'sa') under the predicate 'konnen'.
+[Line 2622 Sent 2093]: [L3 Syntax too-many-objects] Multiple direct objects [23, 25] ('moun', 'fot') under the predicate 'bay'.
+[Line 3304 Sent 210]: [L3 Syntax too-many-objects] Multiple direct objects [3, 8] ('ou', 'moun') under the predicate 'imajine'.
+[Line 4285 Sent 2136]: [L3 Syntax too-many-objects] Multiple direct objects [3, 4] ('yo', 'piblikasyon') under the predicate 'ofri'.
+...suppressing further errors regarding Syntax
+Syntax errors: 15
+Warnings: 210
+*** FAILED *** with 15 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Adolphe/ht_adolphe-ud-test.conllu
-*** PASSED ***
+[Line 7 Sent 3225]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 56 Sent 994]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent 994]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 72 Sent 994]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 98 Sent 713]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 113 Sent 1335]: [L3 Warning pron-det-without-prontype] The word 'okenn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 192 Sent 1302]: [L3 Warning pron-det-without-prontype] The word 'plizyè' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 192 Sent 1302]: [L3 Syntax too-many-objects] Multiple direct objects [12, 14] ('nou', 'zouti') under the predicate 'plizyè'.
+[Line 200 Sent 1302]: [L3 Warning pron-det-without-prontype] The word 'plizyè' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 259 Sent 1707]: [L3 Warning pron-det-without-prontype] The word 'okenn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 278 Sent 1274]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 1958 Sent 663]: [L3 Syntax too-many-objects] Multiple direct objects [20, 21] ('sa', 'yo') under the predicate 'bezwen'.
+[Line 2177 Sent 3022]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('yo', 'kont') under the predicate 'rann'.
+[Line 3477 Sent 1639]: [L3 Syntax too-many-objects] Multiple direct objects [4, 9] ('fason', 'atachman') under the predicate 'kokenn'.
+[Line 4131 Sent 1243]: [L3 Syntax too-many-objects] Multiple direct objects [4, 8] ('pwofèt', 'asirans') under the predicate 'bay'.
+[Line 5131 Sent 1221]: [L3 Syntax too-many-objects] Multiple direct objects [13, 15] ('moun', 'piblikasyon') under the predicate 'ofri'.
+[Line 5228 Sent 3285]: [L3 Syntax too-many-objects] Multiple direct objects [28, 35] ('moun', 'sa') under the predicate 'bay'.
+[Line 5712 Sent 2600]: [L3 Syntax too-many-objects] Multiple direct objects [10, 12] ('l', 'sa') under the predicate 'ba'.
+[Line 5722 Sent 2600]: [L3 Syntax too-many-objects] Multiple direct objects [20, 22] ('l', 'bagay') under the predicate 'ba'.
+[Line 6313 Sent 2334]: [L3 Syntax too-many-objects] Multiple direct objects [11, 15] ('nou', 'kòmandman') under the predicate 'ban'.
+...suppressing further errors regarding Syntax
+Syntax errors: 23
+Warnings: 329
+*** FAILED *** with 23 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Adolphe/ht_adolphe-ud-train.conllu
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.27) = 0.0207692307692308
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
-(weight=0.256410256410256) * (score{size}=0.618575016150001) = 0.1586089785
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
-(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
-(TOTAL score=0.417553307444329) * (availability=1) * (validity=1) = 0.417553307444329
-STARS = 2
-UD_Haitian_Creole-Adolphe	0.417553307444329	2
+[Line 90 Sent 324]: [L3 Warning pron-det-without-prontype] The word 'tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 108 Sent 2497]: [L3 Warning pron-det-without-prontype] The word 'Sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 124 Sent 2497]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 221 Sent 3289]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 242 Sent 2402]: [L3 Warning pron-det-without-prontype] The word 'pèsonn' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 262 Sent 1035]: [L3 Warning pron-det-without-prontype] The word 'Sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 265 Sent 1035]: [L3 Warning pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 270 Sent 2081]: [L3 Warning pron-det-without-prontype] The word 'Sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 293 Sent 778]: [L3 Warning pron-det-without-prontype] The word 'Tout' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 330 Sent 239]: [L3 Warning pron-det-without-prontype] The word 'Toude' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 407 Sent 1785]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('Labib', 'enpòtans') under the predicate 'bay'.
+[Line 1236 Sent 3075]: [L3 Syntax too-many-objects] Multiple direct objects [17, 20] ('yo', 'ki') under the predicate 'ba'.
+[Line 1741 Sent 857]: [L3 Syntax too-many-objects] Multiple direct objects [37, 39] ('l', 'metòd') under the predicate 'anseye'.
+[Line 3779 Sent 254]: [L3 Syntax too-many-objects] Multiple direct objects [10, 13] ('n', 'jou') under the predicate 'tann'.
+[Line 4055 Sent 3235]: [L3 Syntax too-many-objects] Multiple direct objects [3, 4] ('nou', 'kont') under the predicate 'rann'.
+[Line 4237 Sent 2778]: [L3 Syntax too-many-objects] Multiple direct objects [5, 12] ('moun', 'posiblite') under the predicate 'bay'.
+[Line 4379 Sent 2813]: [L3 Syntax too-many-objects] Multiple direct objects [21, 22] ('nou', 'plezi') under the predicate 'fè'.
+[Line 5260 Sent 3210]: [L3 Syntax too-many-objects] Multiple direct objects [24, 27] ('l', 'moun') under the predicate 'vin'.
+[Line 6078 Sent 645]: [L3 Syntax too-many-objects] Multiple direct objects [32, 34] ('w', 'bagay') under the predicate 'montre'.
+[Line 7200 Sent 3174]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('w', 'lafwa') under the predicate 'montre'.
+...suppressing further errors regarding Syntax
+Syntax errors: 121
+Warnings: 1809
+*** FAILED *** with 121 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.27) = 0.03
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.9) = 0.1
+(weight=0.37037037037037) * (score{size}=0.618575016150001) = 0.229101857833334
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.9) = 0.1
+(weight=0.111111111111111) * (score{udeprels}=0.754054054054054) = 0.0837837837837838
+(TOTAL score=0.59868811075292) * (availability=1) * (validity=0.01) = 0.0059868811075292
+STARS = 0
+UD_Haitian_Creole-Adolphe	0.0059868811075292	0
