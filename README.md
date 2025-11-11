@@ -32,6 +32,7 @@ This conversion has been performed by Jephtey Adolphe, a Rutgers University alum
 Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: converted with corrections
 UPOS: converted with corrections
