@@ -606,7 +606,7 @@
 9	vire	vire	VERB	_	_	7	xcomp	_	_
 10	do	do	NOUN	_	_	9	obj	_	_
 11	bay	bay	ADP	_	_	12	case	_	_
-12	Jewova	Jewova	PROPN	_	_	10	obl	_	SpaceAfter=No
+12	Jewova	Jewova	PROPN	_	_	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	Bondye	Bondye	PROPN	_	_	9	obl	_	_
 15	lanmou	lanmou	NOUN	_	_	14	nmod	_	_
@@ -3557,7 +3557,7 @@
 42	fini	fini	VERB	_	_	38	acl:relcl	_	_
 43	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
 44	sou	sou	ADP	_	_	45	case	_	_
-45	tè	tè	NOUN	_	_	38	obl	_	_
+45	tè	tè	NOUN	_	_	38	nmod	_	_
 46	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3733,7 +3733,7 @@
 24	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 25	sou	sou	ADP	_	_	27	case	_	_
 26	fwon	fwon	NOUN	_	_	27	nmod	_	_
-27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nmod	_	SpaceAfter=No
 28	'	'	PUNCT	_	_	27	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -4095,7 +4095,7 @@
 12	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	11	det	_	_
 13	te	te	AUX	_	Tense=Past	15	aux	_	_
 14	gen	gen	VERB	_	_	15	acl	_	_
-15	devan	devan	ADP	_	_	11	obl	_	_
+15	devan	devan	ADP	_	_	11	nmod	_	_
 16	Jewova	Jewova	PROPN	_	_	15	nmod	_	_
 17	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	5	punct	_	_
@@ -4340,7 +4340,7 @@
 8	plas	plas	NOUN	_	_	6	obj	_	_
 9	nan	nan	ADP	_	_	11	case	_	_
 10	lavi	lavi	NOUN	_	_	11	nmod	_	_
-11	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 14	ap	ap	AUX	_	Aspect=Prog	15	aux	_	_
@@ -4500,7 +4500,7 @@
 5	tankou	tankou	ADP	_	_	8	case	_	_
 6	se	se	AUX	_	_	8	cop	_	_
 7	te	te	AUX	_	Tense=Past	8	aux	_	_
-8	sè	sè	NOUN	_	_	3	obl	_	_
+8	sè	sè	NOUN	_	_	3	nmod	_	_
 9	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	8	det	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	san	san	ADP	_	_	14	case	_	_
@@ -5017,7 +5017,7 @@
 # sent_id = 2152
 # text = Pa egzanp, anvan Jezi te bay apot li yo misyon pou yo fè disip la, li te ba yo rezon ki fè yo ta dwe obeyi.
 1	Pa	pa	ADV	_	Polarity=Neg	2	advmod	_	_
-2	egzanp	egzanp	NOUN	_	_	18	obl	_	SpaceAfter=No
+2	egzanp	egzanp	NOUN	_	_	18	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	anvan	anvan	ADP	_	_	7	case	_	_
 5	Jezi	Jezi	PROPN	_	_	7	nsubj	_	_
@@ -5222,7 +5222,7 @@
 24	delivre	delivre	VERB	_	_	21	xcomp	_	_
 25	limanite	limanite	NOUN	_	_	24	obj	_	_
 26	anba	anba	ADP	_	_	27	case	_	_
-27	peche	peche	NOUN	_	_	25	obl	_	_
+27	peche	peche	NOUN	_	_	25	nmod	_	_
 28	ak	ak	CCONJ	_	_	29	cc	_	_
 29	lanmò	lanmò	NOUN	_	_	27	conj	_	_
 30	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
@@ -5307,7 +5307,7 @@
 21	ki	ki	PRON	_	PronType=Rel	22	nsubj	_	_
 22	mache	mache	VERB	_	_	24	acl:relcl	_	_
 23	ak	ak	ADP	_	_	24	case	_	_
-24	desizyon	desizyon	NOUN	_	_	20	obl	_	_
+24	desizyon	desizyon	NOUN	_	_	20	nmod	_	_
 25	sa	sa	DET	_	PronType=Dem	24	det	_	_
 26	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	14	punct	_	_
@@ -5736,7 +5736,7 @@
 16	danje	danje	NOUN	_	_	14	obj	_	_
 17	pou	pou	ADP	_	_	19	case	_	_
 18	kretyen	kretyen	NOUN	_	_	19	nmod	_	_
-19	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+19	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
 20	nan	nan	ADP	_	_	22	case	_	_
 21	domèn	domèn	NOUN	_	_	22	nmod	_	_
 22	espirityèl	espirityèl	ADJ	_	_	19	nmod	_	SpaceAfter=No
@@ -5804,7 +5804,7 @@
 11	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
 12	bèl	bèl	ADJ	_	_	13	amod	_	_
 13	avni	avni	NOUN	_	_	10	obj	_	_
-14	devan	devan	ADP	_	_	13	obl	_	_
+14	devan	devan	ADP	_	_	13	nmod	_	_
 15	ou	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6467,7 +6467,7 @@
 27	mande	mande	VERB	_	_	25	acl:relcl	_	_
 28	oswa	oswa	CCONJ	_	_	27	cc	_	_
 29	tout	tout	DET	_	_	31	det	_	_
-30	sa	sa	PRON	_	_	31	obl	_	_
+30	sa	sa	PRON	_	_	31	nmod	_	_
 31	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
 32	imajine	imajine	VERB	_	_	27	conj	_	SpaceAfter=No
 33	'	'	PUNCT	_	_	32	punct	_	SpaceAfter=No
@@ -6820,7 +6820,7 @@
 20	konsyans	konsyans	NOUN	_	_	21	nmod	_	_
 21	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 22	devan	devan	ADP	_	_	23	case	_	_
-23	Bondye	Bondye	PROPN	_	_	21	obl	_	SpaceAfter=No
+23	Bondye	Bondye	PROPN	_	_	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 3061

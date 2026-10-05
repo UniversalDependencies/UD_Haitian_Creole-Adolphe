@@ -315,7 +315,7 @@
 9	tout	tout	DET	_	_	10	det	_	_
 10	moun	moun	NOUN	_	_	15	nsubj	_	_
 11	sou	sou	ADP	_	_	12	case	_	_
-12	tè	tè	NOUN	_	_	10	obl	_	_
+12	tè	tè	NOUN	_	_	10	nmod	_	_
 13	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 14	te	te	AUX	_	Tense=Past	15	aux	_	_
 15	pran	pran	VERB	_	_	1	conj	_	_
@@ -620,7 +620,7 @@
 10	frè	frè	NOUN	_	_	13	nmod	_	_
 11	ak	ak	CCONJ	_	_	12	cc	_	_
 12	sè	sè	NOUN	_	_	10	conj	_	_
-13	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	8	obl	_	_
+13	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	8	nmod	_	_
 14	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	13	det	_	_
 15	ak	ak	CCONJ	_	_	16	cc	_	_
 16	moun	moun	NOUN	_	_	13	conj	_	_
@@ -662,7 +662,7 @@
 15	depi	depi	ADP	_	_	18	case	_	_
 16	nan	nan	ADP	_	_	18	case	_	_
 17	syèl	syèl	NOUN	_	_	18	nmod	_	_
-18	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	13	obl	_	SpaceAfter=No
+18	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	13	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	Jewova	Jewova	PROPN	_	_	24	nsubj	_	_
 21	te	te	AUX	_	Tense=Past	24	aux	_	_
@@ -672,7 +672,7 @@
 25	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 26	konprann	konprann	VERB	_	_	24	xcomp	_	_
 27	ki	ki	PRON	_	PronType=Rel	29	nsubj	_	_
-28	lè	lè	NOUN	_	_	29	obl	_	_
+28	lè	lè	NOUN	_	_	29	nmod	_	_
 29	evenman	evenman	NOUN	_	_	26	obj	_	_
 30	sa	sa	DET	_	PronType=Dem	29	det	_	_
 31	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	30	det	_	_
@@ -697,7 +697,7 @@
 12	te	te	AUX	_	Tense=Past	13	aux	_	_
 13	konnen	konnen	VERB	_	_	4	conj	_	_
 14	ki	ki	SCONJ	_	_	16	mark	_	_
-15	jan	jan	NOUN	_	_	16	obl	_	_
+15	jan	jan	NOUN	_	_	16	nmod	_	_
 16	sa	sa	PRON	_	_	18	nsubj	_	_
 17	pap	pa	ADV	_	Polarity=Neg	18	advmod	_	_
 18	fè	fè	VERB	_	_	13	ccomp	_	_
@@ -1476,7 +1476,7 @@
 # text = Nan yon moman ak yon kote ki apwopriye pou sa, montre w gen lanmou, dousè ak pasyans lè w ap bay pitit ou enstriksyon, fòmasyon ak koreksyon.
 1	Nan	nan	ADP	_	_	3	case	_	_
 2	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
-3	moman	moman	NOUN	_	_	13	obl	_	_
+3	moman	moman	NOUN	_	_	13	nmod	_	_
 4	ak	ak	CCONJ	_	_	6	cc	_	_
 5	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 6	kote	kote	NOUN	_	_	3	conj	_	_
@@ -1515,7 +1515,7 @@
 5	bagay	bagay	NOUN	_	_	3	obj	_	_
 6	nan	nan	ADP	_	_	8	case	_	_
 7	priyè	priyè	NOUN	_	_	8	nmod	_	_
-8	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
 9	jwenn	jwenn	VERB	_	_	8	acl	_	_
 10	nan	nan	ADP	_	_	12	case	_	_
 11	Pawòl	Pawòl	PROPN	_	_	12	nmod	_	_
@@ -1837,7 +1837,7 @@
 9	Jewova	Jewova	PROPN	_	_	8	nmod	_	_
 10	bay	bay	VERB	_	_	8	acl	_	_
 11	pa	pa	ADP	_	_	13	case	_	_
-12	mwayen	mwayen	NOUN	_	_	13	obl	_	_
+12	mwayen	mwayen	NOUN	_	_	13	nmod	_	_
 13	Jezi	Jezi	PROPN	_	_	10	obl	_	_
 14	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -1882,7 +1882,7 @@
 11	pitye	pitye	NOUN	_	_	10	obj	_	_
 12	pou	pou	ADP	_	_	14	case	_	_
 13	moun	moun	NOUN	_	_	14	nmod	_	_
-14	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+14	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nmod	_	_
 15	e	e	CCONJ	_	_	18	cc	_	_
 16	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 17	te	te	AUX	_	Tense=Past	18	aux	_	_
@@ -2162,7 +2162,7 @@
 6	frè	frè	NOUN	_	_	12	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	ki	ki	PRON	_	PronType=Rel	10	nsubj	_	_
-9	jan	jan	NOUN	_	_	10	obl	_	_
+9	jan	jan	NOUN	_	_	10	nmod	_	_
 10	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
 11	ka	ka	AUX	_	_	12	aux	_	_
 12	imite	imite	VERB	_	_	13	acl:relcl	_	_
@@ -2628,7 +2628,7 @@
 # sent_id = 3254
 # text = Pa mwayen Wayòm Mesi a, talè konsa, Jewova pral fini ak tout soufrans lèzòm ap sibi yo lè l detwi mechan an ak lè l delivre pèp li a nan monn tèt anba sa a Satan ap dirije a.
 1	Pa	pa	ADP	_	_	3	case	_	_
-2	mwayen	mwayen	NOUN	_	_	3	obl	_	_
+2	mwayen	mwayen	NOUN	_	_	3	nmod	_	_
 3	Wayòm	wayòm	NOUN	_	_	8	obl	_	_
 4	Mesi	Mesi	PROPN	_	_	3	nmod	_	_
 5	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
@@ -3334,7 +3334,7 @@
 5	tèks	tèks	NOUN	_	_	10	acl:relcl	_	_
 6	pou	pou	ADP	_	_	8	mark	_	_
 7	jounen	jounen	NOUN	_	_	8	obl	_	_
-8	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	10	obl	_	_
+8	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	10	nmod	_	_
 9	montre	montre	VERB	_	_	0	root	_	_
 10	fason	fason	NOUN	_	_	9	obj	_	_
 11	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
@@ -3827,7 +3827,7 @@
 3	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	2	det	_	_
 4	antanke	antanke	ADP	_	_	6	case	_	_
 5	kretyen	kretyen	NOUN	_	_	6	nmod	_	_
-6	pi	pi	ADV	_	_	2	obl	_	_
+6	pi	pi	ADV	_	_	2	advmod	_	_
 7	enpòtan	enpòtan	ADJ	_	_	6	amod	_	_
 8	lontan	lontan	ADV	_	_	6	advmod	_	_
 9	pase	pase	SCONJ	_	_	10	mark	_	_
@@ -4457,7 +4457,7 @@
 16	espirityèl	espirityèl	ADJ	_	_	15	amod	_	_
 17	nou	mwen	PRON	_	Number=Plur|Person=1|PronType=Prs	15	det	_	_
 18	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
-19	jodi	jodi	NOUN	_	_	15	obl	_	_
+19	jodi	jodi	NOUN	_	_	15	nmod	_	_
 20	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 21	!	!	PUNCT	_	_	9	punct	_	_
 
@@ -4863,7 +4863,7 @@
 3	sa	sa	PRON	_	_	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	pa	pa	ADP	_	_	6	case	_	_
-6	mwayen	mwayen	NOUN	_	_	7	obl	_	_
+6	mwayen	mwayen	NOUN	_	_	7	nmod	_	_
 7	Pawòl	Pawòl	PROPN	_	_	16	obl	_	_
 8	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
 9	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
@@ -6593,7 +6593,7 @@
 14	rasin	rasin	NOUN	_	_	13	obj	_	_
 15	nan	nan	ADP	_	_	17	case	_	_
 16	kè	kè	NOUN	_	_	17	nmod	_	_
-17	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
 18	kont	kont	ADP	_	_	20	case	_	_
 19	moun	moun	NOUN	_	_	20	nmod	_	_
 20	ki	ki	PRON	_	PronType=Rel	17	acl:relcl	_	_
@@ -6729,7 +6729,7 @@
 21	sèvis	sèvis	NOUN	_	_	20	obl	_	_
 22	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	21	det	_	_
 23	pou	pou	ADP	_	_	24	case	_	_
-24	Bondye	Bondye	PROPN	_	_	21	obl	_	SpaceAfter=No
+24	Bondye	Bondye	PROPN	_	_	21	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	3	punct	_	_
 26	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 27	te	te	AUX	_	Tense=Past	28	aux	_	_
@@ -7015,7 +7015,7 @@
 5	regilyèman	regilyèman	ADV	_	_	3	advmod	_	_
 6	pou	pou	ADP	_	_	8	case	_	_
 7	travay	travay	NOUN	_	_	8	nmod	_	_
-8	mondyal	mondyal	ADJ	_	_	4	obl	_	_
+8	mondyal	mondyal	ADJ	_	_	4	nmod	_	_
 9	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 10	tou	tou	ADV	_	_	3	advmod	_	_
 11	paske	paske	SCONJ	_	_	13	mark	_	_
@@ -7841,7 +7841,7 @@
 12	youn	youn	PRON	_	_	15	det	_	_
 13	nan	nan	ADP	_	_	15	case	_	_
 14	pi	pi	ADV	_	_	15	advmod	_	_
-15	gwo	gwo	ADJ	_	_	10	obl	_	_
+15	gwo	gwo	ADJ	_	_	10	nmod	_	_
 16	eprèv	eprèv	NOUN	_	_	15	nmod	_	_
 17	pou	pou	ADP	_	_	19	case	_	_
 18	lafwa	lafwa	NOUN	_	_	19	nmod	_	_
@@ -8171,7 +8171,7 @@
 17	swa	swa	CCONJ	_	_	20	cc	_	_
 18	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
 19	ti	ti	ADJ	_	_	20	amod	_	_
-20	tan	tan	NOUN	_	_	15	obl	_	_
+20	tan	tan	NOUN	_	_	15	nmod	_	_
 21	anvan	anvan	ADP	_	_	23	case	_	_
 22	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 23	mouri	mouri	VERB	_	_	20	acl	_	_
@@ -9161,7 +9161,7 @@
 6	maleng	maleng	NOUN	_	_	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	men	men	CCONJ	_	_	13	cc	_	_
-9	lè	lè	SCONJ	_	_	13	obl	_	_
+9	lè	lè	SCONJ	_	_	13	nmod	_	_
 10	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 11	aprann	aprann	VERB	_	_	9	advcl	_	_
 12	padone	padone	VERB	_	_	11	xcomp	_	_
@@ -9690,7 +9690,7 @@
 23	benediksyon	benediksyon	NOUN	_	_	21	obj	_	_
 24	pou	pou	ADP	_	_	26	case	_	_
 25	moun	moun	NOUN	_	_	26	nmod	_	_
-26	obeyisan	obeyisan	ADJ	_	_	23	obl	_	_
+26	obeyisan	obeyisan	ADJ	_	_	23	nmod	_	_
 27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	26	det	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -9957,7 +9957,7 @@
 2	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 3	pa	pa	ADV	_	Polarity=Neg	5	advmod	_	_
 4	aksepte	aksepte	VERB	_	_	5	xcomp	_	_
-5	direksyon	direksyon	NOUN	_	_	8	obl	_	_
+5	direksyon	direksyon	NOUN	_	_	8	nmod	_	_
 6	Bondye	Bondye	PROPN	_	_	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	sa	sa	PRON	_	_	9	nsubj	_	_
@@ -10518,7 +10518,7 @@
 11	laperèz	laperèz	NOUN	_	_	10	obl	_	_
 12	akoz	akoz	ADP	_	_	14	case	_	_
 13	chèf	chèf	NOUN	_	_	14	nmod	_	_
-14	relijye	relijye	ADJ	_	_	11	obl	_	_
+14	relijye	relijye	ADJ	_	_	11	nmod	_	_
 15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	14	det	_	_
 16	ki	ki	PRON	_	PronType=Rel	18	nsubj	_	_
 17	te	te	AUX	_	Tense=Past	18	aux	_	_
@@ -10561,7 +10561,7 @@
 16	esplikasyon	esplikasyon	NOUN	_	_	14	obj	_	_
 17	sou	sou	ADP	_	_	19	case	_	_
 18	efè	efè	NOUN	_	_	19	nmod	_	_
-19	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
 20	ap	ap	AUX	_	Aspect=Prog	21	aux	_	_
 21	genyen	genyen	VERB	_	_	19	acl	_	SpaceAfter=No
 22	?	?	PUNCT	_	_	14	punct	_	_
@@ -10676,7 +10676,7 @@
 21	opinyon	opinyon	NOUN	_	_	20	obj	_	_
 22	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	21	det	_	_
 23	sou	sou	ADP	_	_	24	case	_	_
-24	sijè	sijè	NOUN	_	_	21	obl	_	_
+24	sijè	sijè	NOUN	_	_	21	nmod	_	_
 25	polemik	polemik	ADJ	_	_	24	amod	_	_
 26	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	24	det	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
@@ -10989,7 +10989,7 @@
 7	moun	moun	NOUN	_	_	6	nmod	_	_
 8	nan	nan	ADP	_	_	10	case	_	_
 9	peyi	peyi	NOUN	_	_	10	nmod	_	_
-10	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	7	obl	_	_
+10	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	7	nmod	_	_
 11	pale	pale	VERB	_	_	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11176,7 +11176,7 @@
 14	piman	piman	NOUN	_	_	13	obj	_	_
 15	sou	sou	ADP	_	_	17	case	_	_
 16	pawòl	pawòl	NOUN	_	_	17	nmod	_	_
-17	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obl	_	_
+17	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	14	nmod	_	_
 18	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	13	punct	_	_
 20	men	men	CCONJ	_	_	23	cc	_	SpaceAfter=No
@@ -11304,7 +11304,7 @@
 5	jis	jis	ADV	_	_	4	advmod	_	_
 6	nan	nan	ADP	_	_	9	case	_	_
 7	ki	ki	PRON	_	PronType=Rel	9	nsubj	_	_
-8	pwen	pwen	NOUN	_	_	9	obl	_	_
+8	pwen	pwen	NOUN	_	_	9	nmod	_	_
 9	bagay	bagay	NOUN	_	_	4	obl	_	_
 10	yo	yo	DET	_	Number=Plur|PronType=Art	9	det	_	_
 11	pa	pa	ADV	_	Polarity=Neg	14	advmod	_	_
